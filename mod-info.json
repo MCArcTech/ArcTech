@@ -1,0 +1,10 @@
+{
+  "modid": "arctech",
+  "modname": "ArcTech",
+  "modclass": "ArcTech",
+  "modgroup": "com.mrmelon54.ArcTech",
+  "moddesc": "An Architectury Tech Mod",
+  "modwebsite": "https://mrmelon54.com/minecraft/arctech",
+  "modsource": "https://github.com/MCArcTech/ArcTech",
+  "modissue": "https://github.com/MCArcTech/ArcTech/issues"
+}
