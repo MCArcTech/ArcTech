@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "arctech",
+  "version": "${version}",
+  "name": "ArcTech",
+  "description": "An Architectury Tech Mod",
+  "authors": [
+    "MrMelon54"
+  ],
+  "contact": {
+    "homepage": "https://mrmelon54.com/minecraft/arctech",
+    "sources": "https://github.com/MCArcTech/ArcTech",
+    "issues": "https://github.com/MCArcTech/ArcTech/issues"
+  },
+  "license": "GPL-3.0-only",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mrmelon54.ArcTech.fabric.ArcTechFabric"
+    ]
+  },
+  "mixins": [
+    "arctech.mixins.json",
+    "arctech-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "architectury": ">=9.0.0"
+  }
+}

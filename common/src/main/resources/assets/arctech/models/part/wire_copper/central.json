@@ -1,0 +1,22 @@
+{
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "arctech:block/wire_copper",
+    "particle": "arctech:block/wire_copper"
+  },
+  "elements": [
+    {
+      "name": "center",
+      "from": [7, 7, 7],
+      "to": [9, 9, 9],
+      "faces": {
+        "north": {"uv": [12, 0, 8, 4], "rotation": 180, "texture": "#0"},
+        "east": {"uv": [8, 4, 12, 0], "rotation": 90, "texture": "#0"},
+        "south": {"uv": [8, 4, 12, 0], "rotation": 270, "texture": "#0"},
+        "west": {"uv": [8, 4, 12, 0], "rotation": 90, "texture": "#0"},
+        "up": {"uv": [12, 0, 8, 4], "rotation": 90, "texture": "#0"},
+        "down": {"uv": [8, 0, 12, 4], "rotation": 180, "texture": "#0"}
+      }
+    }
+  ]
+}

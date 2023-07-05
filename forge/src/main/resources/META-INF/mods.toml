@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[46,)"
+issueTrackerURL = "https://github.com/MCArcTech/ArcTech/issues"
+license = "GPL-3.0-only"
+
+[[mods]]
+modId = "arctech"
+version = "${version}"
+displayName = "ArcTech"
+authors = "MrMelon54"
+description = "An Architectury Tech Mod"
+logoFile = "/icon.png"
+
+[[dependencies.arctech]]
+modId = "forge"
+mandatory = true
+versionRange = "[46,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.arctech]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.arctech]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
