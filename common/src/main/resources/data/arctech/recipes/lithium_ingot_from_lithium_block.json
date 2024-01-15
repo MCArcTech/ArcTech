@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "lithium_ingot",
+  "ingredients": [
+    {
+      "item": "arctech:lithium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "arctech:lithium_ingot"
+  }
+}

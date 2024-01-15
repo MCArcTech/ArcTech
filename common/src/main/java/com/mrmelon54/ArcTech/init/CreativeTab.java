@@ -1,5 +1,6 @@
-package com.mrmelon54.ArcTech;
+package com.mrmelon54.ArcTech.init;
 
+import com.mrmelon54.ArcTech.ArcTech;
 import dev.architectury.registry.CreativeTabRegistry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;

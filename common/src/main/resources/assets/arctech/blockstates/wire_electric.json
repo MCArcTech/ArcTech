@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "arctech:block/wire_electric"
+    }
+  }
+}
